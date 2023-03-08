@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 150px;
+    height: 250px;
+    gap: 3px;
+    padding: 3px;
+}
+
+.display {
+    flex: 1 1 0;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+    gap: 3px;
+}
+
+#child {
+    flex: 1 1 0;
+}
